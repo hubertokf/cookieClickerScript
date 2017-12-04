@@ -1,0 +1,5 @@
+**Cookie clicker helper**
+
+Using https://rawgit.com/ to make files public acessible
+
+Bookmark snippet: javascript:(function(){ var d=document.createElement('script'); d.src = 'https://cdn.rawgit.com/hubertokf/cookieClickerScript/master/cookiehack.js?v='+parseInt(Math.random()*99999999); document.getElementsByTagName('head')[0].appendChild(d);})()
