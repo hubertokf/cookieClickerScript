@@ -43,7 +43,7 @@ function cookieHack(){
   var cssNode = document.createElement('link');
   cssNode.type = 'text/css';
   cssNode.rel = 'stylesheet';
-  cssNode.href = 'https://1dc08b28d55df1f60e43787a3b1aaa7b3e62c5ae.googledrive.com/host/0B_8w_zdW-Unofnl6MHZHQlpBVU9kUVA2c3NjSmY3aUwtQVdlS05Ib2Q5RTZXRnYzdndSaXM/cookiehack.css';
+  cssNode.href = 'https://cdn.rawgit.com/hubertokf/cookieClickerScript/master/cookiehack.css';
   cssNode.media = 'screen';
   headID.appendChild(cssNode);
 
@@ -120,4 +120,8 @@ function cookieHack(){
 //https://1dc08b28d55df1f60e43787a3b1aaa7b3e62c5ae.googledrive.com/host/0B_8w_zdW-Unofnl6MHZHQlpBVU9kUVA2c3NjSmY3aUwtQVdlS05Ib2Q5RTZXRnYzdndSaXM/cookiehack.js
 //https://1dc08b28d55df1f60e43787a3b1aaa7b3e62c5ae.googledrive.com/host/0B_8w_zdW-Unofnl6MHZHQlpBVU9kUVA2c3NjSmY3aUwtQVdlS05Ib2Q5RTZXRnYzdndSaXM/cookiehack.css
 
+//https://cdn.rawgit.com/hubertokf/cookieClickerScript/master/cookiehack.js
+//https://cdn.rawgit.com/hubertokf/cookieClickerScript/master/cookiehack.css
+
 //javascript:(function(){ var d=document.createElement('script'); d.src = 'https://1dc08b28d55df1f60e43787a3b1aaa7b3e62c5ae.googledrive.com/host/0B_8w_zdW-Unofnl6MHZHQlpBVU9kUVA2c3NjSmY3aUwtQVdlS05Ib2Q5RTZXRnYzdndSaXM/cookiehack.js?v='+parseInt(Math.random()*99999999); document.getElementsByTagName('head')[0].appendChild(d);})()
+//javascript:(function(){ var d=document.createElement('script'); d.src = 'https://cdn.rawgit.com/hubertokf/cookieClickerScript/master/cookiehack.js?v='+parseInt(Math.random()*99999999); document.getElementsByTagName('head')[0].appendChild(d);})()
