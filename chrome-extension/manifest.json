@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Cookie Clicker helper",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://orteil.dashnet.org/cookieclicker/",
+                "http://orteil.dashnet.org/cookieclicker/"
+            ],
+            "css": [
+                "cookiehack.css"
+            ],
+            "js": [
+                "vendor/jquery-3.2.1.min.js",
+                "cookiehack.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "images/cookie.png"
+    },
+    "web_accessible_resources": [
+        "cookiehack.css"
+    ]
+}

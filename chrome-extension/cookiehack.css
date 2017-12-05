@@ -1,0 +1,197 @@
+#hackbutton {
+	bottom: 16px;
+	right: 0;
+	height: 45px;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6px;
+	background-position: 0px -48px;
+}
+
+#septop{
+	position: relative;
+}
+
+#septop:active{
+  cursor: move;
+}
+
+#hackboxClose{
+  text-align: right;
+  float: right;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+#hackbox{
+	display: none;
+  width: 300px;
+  /* height: 200px; */
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  top: 200px;
+  position: absolute;
+	background-color: rgba(0,0,0,0.6);
+  z-index: 99999999;
+}
+
+#hackcredits{
+  margin-top: 20px;
+  font-size: 9px;
+  text-align: right;
+  color: #aaa;
+  margin: 4px;
+}
+
+#hacklist{
+  padding: 20px;
+}
+
+#hacklist li{
+  margin-bottom: 10px;
+  height: 22px;
+}
+
+.hackitem{
+  font-family: 'Kavoon', Georgia,serif;
+  font-size: 18px;
+  text-shadow: 0px 0px 4px #000;
+  color: #fff;
+  float: left;
+  line-height: 22px;
+}
+
+.swcookie{
+  float: right !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Toogle button */
+
+/* ============================================================
+  COMMON
+============================================================ */
+#wrapper {
+  min-width: 600px;
+}
+
+.settings {
+  display: table;
+  width: 100%;
+}
+.settings .row {
+  display: table-row;
+}
+.settings .question,
+.settings .switch {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+.settings .question {
+  width: 600px;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+/* ============================================================
+  COMMON
+============================================================ */
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* ============================================================
+  SWITCH 1 - ROUND
+============================================================ */
+input.cmn-toggle-round + label {
+  padding: 2px;
+  width: 42px;
+  height: 18px;
+  background-color: rgba(0,0,0,0.5);
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #555;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round + label:after {
+  width: 20px;
+  background-color: #ddd;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: margin 0.4s;
+  -moz-transition: margin 0.4s;
+  -o-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+input.cmn-toggle-round:checked + label:before {
+  background-color: #8ce196;
+}
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 25px;
+}
