@@ -1,5 +1,5 @@
 var d=document.createElement('script');
- d.src = 'http://code.jquery.com/jquery-latest.js';
+ d.src = 'https://code.jquery.com/jquery-latest.js';
  d.onload = function(){
    cookieHack();
  };
